@@ -1478,31 +1478,19 @@ ol {
 
 /* # Footer */
 .footer-area {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 20px;
-    padding-bottom: 30px;
-
+    padding-bottom: 20px;
+    z-index: 1;
+    width: 100%;
+    left: 0%;/* Adjust as needed */
+    overflow-x: hidden;
 }
 .main-workspage .footer-area {
     padding-top: 104px;
-
-}
-.footer-area .footer-content .logo_footer {
-    display: inline-block;
-    border-radius: 5px;
-}
-.footer-area .footer-content .logo_footer img {
-    width: 320px;
-    display: block;
-    opacity: 0.5;
-}
-
-.footer-area .footer-content .logo_footer:hover {
-    background: linear-gradient(
-            to right,
-            rgba(255, 0, 0, 0.5), /* Red with 50% opacity */
-            rgba(91,120,246, 0.5) /* Purple with 50% opacity */
-    );
-    opacity: 1; /* If you want to change the opacity of the logo on hover */
 }
 
 .footer-area .footer-content .footer-menu {
@@ -1531,6 +1519,7 @@ ol {
     font-size: 14px;
     font-weight: 500;
     z-index: 1;
+    align-content: center;
 }
 .footer-area .footer-content .copyright span {
     color: var(--primary_color);
