@@ -132,6 +132,7 @@ ol {
     position: relative;
     border-radius: 30px;
     background: #0F0F0F;
+
 }
 .shadow-box::after {
     content: '';
@@ -182,6 +183,11 @@ ol {
 .section-heading img {
     display: block;
 }
+
+.about-project-box:hover {
+    background: radial-gradient(circle at -15.9% 30%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 16%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+}
+
 
 
 /* # InfoBox */
@@ -344,6 +350,11 @@ ol {
     padding-bottom: 42px;
     padding-top: 83px;
 }
+.info-box.about-contact-box:hover {
+    background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+}
+
+
 .info-box.about-contact-box h1 {
     font-size: 44px;
     line-height: 52px;
@@ -352,8 +363,10 @@ ol {
     margin: 0;
 }
 .info-box.about-contact-box h1 span {
-    color: var(--primary_color);
+    background: linear-gradient(155deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(322deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(33deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(315deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(41deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(90deg, rgb(192, 100, 79),rgb(56, 158, 172)); background-blend-mode:overlay,overlay,overlay,overlay,overlay,normal;; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
 }
+
+
 .info-box.about-contact-box .about-btn {
     position: absolute;
     display: block;
@@ -392,7 +405,8 @@ ol {
 }
 
 .about-blog-box.info-box.shadow-box.h-full:hover::after {
-    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(143, 0, 0, 0.7));
+    background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
+    opacity: 0.8;
 }
 
 .about-blog-box.info-box.shadow-box.h-full {
@@ -1480,14 +1494,14 @@ ol {
 .footer-area {
     position: absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
     z-index: 1;
     width: 100%;
-    left: 0%;/* Adjust as needed */
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 .main-workspage .footer-area {
     padding-top: 104px;
@@ -1982,7 +1996,7 @@ ol {
     }
     .footer-area .footer-content .footer-menu {
         gap: 24px;
-        z-index: 1;
+        z-index: 16;
 
     }
     .credential-area .credential-content .credential-about {

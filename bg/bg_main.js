@@ -1,4 +1,4 @@
-let NUM_PARTICLES = ( ( ROWS = 330 ) * ( COLS = 300 ) ),
+let NUM_PARTICLES = ( ( ROWS = 314 ) * ( COLS = 300 ) ),
     THICKNESS = Math.pow( 80, 2 ),
     SPACING = 3,
     MARGIN = 1,
