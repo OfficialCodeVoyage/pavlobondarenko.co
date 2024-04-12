@@ -168,6 +168,34 @@ ol {
     z-index: 2;
     position: relative;
 }
+
+.client-item.client-item-bg1:hover {
+    background: linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
+    opacity: 0.8;
+}
+
+.client-item.client-item-bg1:hover p {
+    color: white;
+    opacity: 1;
+    !important;
+}
+/* not finished!*/
+
+client-item.client-item-bg1:hover h1 {
+    background: linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
+}
+
+.client-item.client-item-bg2:hover {
+    background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(244, 253, 0) 100.2%);
+    opacity: 0.8;
+}
+
+.client-item.client-item-bg3:hover {
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    opacity: 0.8;
+
+}
+
 .section-heading {
     color: #ffffff;
     font-size: 74px;
@@ -409,8 +437,8 @@ ol {
 }
 
 .about-blog-box.info-box.shadow-box.h-full:hover::after {
-    background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
-    opacity: 0.8;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(247, 30, 30) 100.3%);
+    opacity: 0.7;
 }
 
 .about-blog-box.info-box.shadow-box.h-full {
@@ -528,8 +556,9 @@ ol {
 }
 
 .about-area .about-me-box:hover {
-    background: radial-gradient(circle at -15.9% 30%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 16%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
 }
+
 .about-area .about-me-box .img-box {
     width: 224px;
     height: 224px;
@@ -1679,10 +1708,12 @@ ol {
     .info-box.about-client-box .clients .client-item {
         padding: 42px 10px 42px 10px;
     }
+
     .info-box.about-client-box .clients .client-item h1 {
         font-size: 26px;
         margin-bottom: 12px;
     }
+
 
     .about-area .container > .row:nth-child(2) .blog-service-profile-wrap {
         /* display: grid !important; */
