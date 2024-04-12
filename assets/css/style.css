@@ -188,6 +188,9 @@ ol {
     background: radial-gradient(circle at -15.9% 30%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 16%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
+.about-crenditials-box:hover {
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
 
 
 /* # InfoBox */
@@ -515,12 +518,17 @@ ol {
 .about-area {
     padding-top: 25px;
 }
+
 .about-area .about-me-box {
     position: relative;
     padding: 50px 46px;
     display: flex;
     align-items: flex-start;
     gap: 30px;
+}
+
+.about-area .about-me-box:hover {
+    background: radial-gradient(circle at -15.9% 30%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 16%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 .about-area .about-me-box .img-box {
     width: 224px;
