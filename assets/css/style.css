@@ -313,7 +313,7 @@ ol {
 }
 .info-box .inner-profile-icons a:hover {
     background: #ffffff;
-    color: #0F0F0F;
+    color: #ffffff;
 }
 .info-box .inner-profile-icons a:before {
     content: '';
@@ -326,6 +326,33 @@ ol {
     background: linear-gradient(120deg, rgba(255,255,255,0.5), rgba(255,255,255,0.1));
     backdrop-filter: blur(40px);
 }
+
+.inner-profile-icons a.linkedln:hover {
+    background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
+}
+
+/*.inner-profile-icons a.linkedln:hover i {*/
+/*    color: white;*/
+/*}*/
+
+.inner-profile-icons a[href*="instagram"]:hover {
+    background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+/*.inner-profile-icons a[href*="instagram"]:hover i {*/
+/*    color: white;*/
+/*}*/
+
+.inner-profile-icons a[href*="github"]:hover {
+    background: linear-gradient(to right, #333, #6e5494);
+}
+
+/*.inner-profile-icons a[href*="github"]:hover i {*/
+/*    color: white;*/
+/*}*/
+
+
+
 .info-box .inner-profile-icons a i {
     font-size: 32px;
 }
@@ -397,7 +424,13 @@ ol {
     margin: 0;
 }
 .info-box.about-contact-box h1 span {
-    background: linear-gradient(155deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(322deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(33deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(315deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(41deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(90deg, rgb(192, 100, 79),rgb(56, 158, 172)); background-blend-mode:overlay,overlay,overlay,overlay,overlay,normal;; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background: linear-gradient(155deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(322deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(33deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(315deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(41deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(90deg, rgb(192, 100, 79),rgb(56, 158, 172));
+    background-blend-mode:overlay,overlay,overlay,overlay,overlay,normal;; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+
+.info-box.about-contact-box:hover h1 span {
+    background: radial-gradient(523px at 7.1% 19.3%, rgb(147, 15, 255) 2%, rgb(5, 49, 255) 100.7%);
+    background-blend-mode:overlay,overlay,overlay,overlay,overlay,normal;; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
 }
 
 
@@ -439,8 +472,7 @@ ol {
 }
 
 .about-blog-box.info-box.shadow-box.h-full:hover::after {
-    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(247, 30, 30) 100.3%);
-    opacity: 0.7;
+    background: radial-gradient(circle at 50.4% 50.5%, rgb(255, 88, 88) 0%, rgb(135, 2, 2) 90%);
 }
 
 .about-blog-box.info-box.shadow-box.h-full {
@@ -487,7 +519,7 @@ ol {
 }
 
 .header-area .logo:hover img {
-    content: url('/assets/images/LOGO/logo_hover.png');
+    content: url('/assets/images/LOGO/logo_hover_2.png');
 }
 
 .header-area .navbar .theme-btn {
@@ -570,26 +602,6 @@ ol {
     border-radius: 30px 0 30px 0;
     flex: none;
 }
-
-.about-area .about-me-box .img-box img {
-    display: block;
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-}
-
-.img-box .img2 {
-    display: none;
-}
-
-.img-box:hover .img1 {
-    display: none;
-}
-
-.img-box:hover .img2 {
-    display: block;
-}
-
 
 .about-area .about-me-box .infos {
     padding-top: 30px;
