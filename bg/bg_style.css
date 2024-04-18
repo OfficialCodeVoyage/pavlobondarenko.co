@@ -1,6 +1,5 @@
 html, body {
   background: #111;
-
 }
 
 #container {
@@ -11,14 +10,13 @@ html, body {
 left: 50%;
   top: 10%;
   overflow: hidden;
-
 }
 
 #container .element {
   position: fixed;
   top: 0;
-  /*width: 100%; !* This will make the width of the element span the entire width of its parent *!*/
 }
+
 
   /*
   #stats {
