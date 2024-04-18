@@ -25,7 +25,7 @@ body {
     line-height: 1.65em;
     font-weight: bold;
     font-size: 11em;
-    color: #260025;
+    color: #3f003d;
     font-family: 'Roboto', sans-serif;
     width: 300px;
     height: 300px;
@@ -35,4 +35,5 @@ body {
     margin-left: -150px;
     margin-top: -150px;}
 
-.boom {color: #f5f5f5; }
+.boom{
+    color: #f5f5f5;}}

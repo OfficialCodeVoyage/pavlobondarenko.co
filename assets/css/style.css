@@ -2086,3 +2086,9 @@ ol {
         padding-left: 0;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .flex-1 {
+        display: none;  /* Hide the div on mobile devices */
+    }
+}

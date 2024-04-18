@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="bg/bg_style.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="main_interaction/style2.css">
 </head>
 <body>
 <div id='container'></div>
@@ -160,21 +161,57 @@
                                 <div class="about-services-box info-box shadow-box h-full">
                                     <a href="./service.html" class="overlay-link"></a>
                                     <img src="./assets/images/bg1.png" alt="BG" class="bg-img">
-                                    <div class="icon-boxes">
-                                        <i class="iconoir-book"></i>
-                                        <i class="iconoir-design-pencil"></i>
-                                        <i class="iconoir-color-filter"></i>
-                                        <i class="iconoir-dev-mode-phone"></i>
-                                    </div>
+<!--                                    <div class="icon-boxes">-->
+<!--                                        <i class="iconoir-book"></i>-->
+<!--                                        <i class="iconoir-design-pencil"></i>-->
+<!--                                        <i class="iconoir-color-filter"></i>-->
+<!--                                        <i class="iconoir-dev-mode-phone"></i>-->
+<!--                                    </div>-->
                                     <div class="d-flex align-items-center justify-content-between">
-                                        <div class="infos">
-                                            <h4>specialization</h4>
-                                            <h1>Services Offering</h1>
-                                        </div>
-    
-                                        <a href="./service.html" class="about-btn">
-                                            <img src="./assets/images/icon.svg" alt="Button">
-                                        </a>
+<!--                                        <div class="infos">-->
+<!--                                            <h4>specialization</h4>-->
+<!--                                            <h1>Services Offering</h1>-->
+<!--                                        </div>-->
+<!--    -->
+<!--                                        <a href="./service.html" class="about-btn">-->
+<!--                                            <img src="./assets/images/icon.svg" alt="Button">-->
+<!--                                        </a>-->
+
+<!--                                        |Test interactions-->
+
+                                        <script type="x-shader/x-vertex" id="vertexshader">
+
+                                            attribute float size;
+                                            attribute vec3 customColor;
+                                            varying vec3 vColor;
+
+                                            void main() {
+
+                                              vColor = customColor;
+                                              vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+                                              gl_PointSize = size * ( 300.0 / -mvPosition.z );
+                                              gl_Position = projectionMatrix * mvPosition;
+
+                                            }
+
+                                        </script>
+                                        <script type="x-shader/x-fragment" id="fragmentshader">
+
+                                            uniform vec3 color;
+                                            uniform sampler2D pointTexture;
+
+                                            varying vec3 vColor;
+
+                                            void main() {
+
+                                              gl_FragColor = vec4( color * vColor, 1.0 );
+                                              gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+
+                                            }
+                                        </script>
+
+                                        <div id="magic"></div>
+
     
                                     </div>
                                 </div>
@@ -278,6 +315,8 @@
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/aos.js"></script>
 <script src="./assets/js/main.js"></script>
+    <script src="main_interaction/interaction.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.126.1/build/three.min.js"></script>
 
 <!--<script src="bg/bg_main.js"></script>-->
 <script>
