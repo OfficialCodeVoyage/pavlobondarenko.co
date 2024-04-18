@@ -6,25 +6,25 @@
 /***********************/
 /***********************/
 /**/
-*, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    user-select: none;
-    transform-style: preserve-3d;
-    -webkit-tap-highlight-color: transparent;
-}
+/**, *::after, *::before {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    user-select: none;*/
+/*    transform-style: preserve-3d;*/
+/*    -webkit-tap-highlight-color: transparent;*/
+/*}*/
 /* Generic */
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    cursor: pointer;
-    background-image: radial-gradient(circle, #171424, #000);
-}
+/*body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    overflow: hidden;*/
+/*    cursor: pointer;*/
+/*    background-image: radial-gradient(circle, #171424, #000);*/
+/*}*/
 .face {
     position: absolute;
 }
