@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pavlo Bondarenko - Hello World</title>
+    <title>Pavlo Bondarenko - Let's Connect</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,12 +13,15 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
 
+    <!-- Styles -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/aos.css">
-
+    <link rel="stylesheet" href="bg/bg_style.css" media="screen and (min-width: 769px)">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+<div id='container'></div>
+<h3 id='coords'></h3>
 
     <main class="main-aboutpage">
 
@@ -27,7 +30,7 @@
             <div class="container">
                 <div class="gx-row d-flex align-items-center justify-content-between">
                     <a href="./index.html" class="logo">
-                        <img src="./assets/images/LOGO/logo3.png" width="320px" style="opacity: 1;" alt="Logo">
+                        <img src="./assets/images/LOGO/logo3.png" width="400px" style="opacity: 1;" alt="Logo">
                     </a>
 
                     <nav class="navbar">
@@ -64,11 +67,9 @@
 <!--                                </div>-->
 <!--                                <div class="right">-->
 <!--                                    <span>MAIL us</span>-->
-<!--                                    <h4>info@bluebase.com</h4>-->
-<!--                                    <h4>info@bluebase2.com</h4>-->
+<!--                                    <h4>bp@yh.com</h4>-->
 <!--                                </div>-->
 <!--                            </li>-->
-
 
 
                             <li class="d-flex align-items-center" data-aos="zoom-in">
@@ -76,7 +77,16 @@
                                     <i class="iconoir-map-pin"></i>
                                 </div>
                                 <div class="right">
-                                    <span>Location</span>
+                                    <span>From</span>
+                                    <h4>Odesa, Ukraine</h4>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center" data-aos="zoom-in">
+                                <div class="icon-box shadow-box">
+                                    <i class="iconoir-map-pin"></i>
+                                </div>
+                                <div class="right">
+                                    <span>Live in</span>
                                     <h4>Dallas, Texas</h4>
                                 </div>
                             </li>
@@ -84,9 +94,10 @@
 
                         <h3 data-aos="fade-up">Social Info</h3>
                         <ul class="social-links d-flex align-center" data-aos="zoom-in">
-                            <li><a class="shadow-box" href=""><i class="iconoir-linkedin"></i></a></li>
-                            <li><a class="shadow-box" href=""><i class="iconoir-instagram"></i></a></li>
-                            <li><a class="shadow-box" href=""><i class="iconoir-github"></i></a></li>
+                            <li><a class="shadow-box" href="https://www.linkedin.com/in/mrbondarenko/" target="_blank" ><i class="iconoir-linkedin"></i></a></li>
+                            <li><a class="shadow-box" href="https://www.instagram.com/officialcodevoyage/" target="_blank"><i class="iconoir-instagram"></i></a></li>
+                            <li><a class="shadow-box" href="https://github.com/OfficialCodeVoyage" target="_blank"><i class="iconoir-github"></i></a></li>
+                            <li><a class="shadow-box" href="https://www.youtube.com/@OfficialCodeVoyage" target="_blank"><i class="iconoir-youtube"></i></a></li>
 
                         </ul>
 
@@ -129,9 +140,6 @@
         <footer class="footer-area">
             <div class="container">
                 <div class="footer-content text-center">
-                    <a href="./index.html" class="logo">
-                        <img src="./assets/images/LOGO/logo3.png" width="320px" style="opacity: 0.5;" alt="Logo">
-                    </a>
                     <ul class="footer-menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
@@ -153,5 +161,13 @@
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/ajax-form.js"></script>
+    <!--<script src="bg/bg_main.js"></script>-->
+    <script>
+        if(window.innerWidth >= 769) {
+            var script = document.createElement('script');
+            script.src = "bg/bg-contact/bg_contact.js";
+            document.head.appendChild(script);
+        }
+    </script>
 </body>
 </html>

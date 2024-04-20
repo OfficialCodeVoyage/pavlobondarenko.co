@@ -139,6 +139,7 @@ ol {
     position: relative;
     border-radius: 30px;
     background: #0F0F0F;
+    margin-left: -5px;
 
 }
 .shadow-box::after {
@@ -175,6 +176,14 @@ ol {
     z-index: 2;
     position: relative;
 }
+
+.shadow-box span {
+    background: linear-gradient(155deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(322deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(33deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(315deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(41deg, rgb(229, 176, 124) 0%, rgb(229, 176, 124) 41%,rgb(198, 157, 133) 41%, rgb(198, 157, 133) 42%,rgb(167, 139, 142) 42%, rgb(167, 139, 142) 44%,rgb(136, 120, 151) 44%, rgb(136, 120, 151) 45%,rgb(105, 101, 159) 45%, rgb(105, 101, 159) 61%,rgb(74, 83, 168) 61%, rgb(74, 83, 168) 78%,rgb(43, 64, 177) 78%, rgb(43, 64, 177) 100%),linear-gradient(90deg, rgb(192, 100, 79),rgb(56, 158, 172));
+    background-blend-mode:overlay,overlay,overlay,overlay,overlay,normal;; -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+
+
+
 
 .client-item.client-item-bg1:hover {
     background: linear-gradient(111.3deg, rgb(252, 56, 56) 11.7%, rgb(237, 13, 81) 81.7%);
@@ -1541,7 +1550,7 @@ ol {
     margin-bottom: 0;
 }
 .contact-area .social-links {
-    gap: 20px;
+    gap: 15px;
 }
 .contact-area .social-links li a {
     width: 82px;
@@ -1555,9 +1564,28 @@ ol {
     transition: .3s;
 }
 .contact-area .social-links li a:hover {
-    background: #ffffff;
-    color: #0F0F0F;
+    background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
+    color: #ffffff;
 }
+
+.social-links li:nth-child(1) a:hover {
+    background: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+}
+
+.social-links li:nth-child(2) a:hover {
+    background: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
+}
+
+.social-links li:nth-child(3) a:hover {
+    background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);
+}
+
+.social-links li:nth-child(4) a:hover {
+    background: linear-gradient(107.2deg, rgb(150, 15, 15) 10.6%, rgb(247, 0, 0) 91.1%);
+}
+
+
+
 .contact-area .social-links li a:before,
 .contact-area .social-links li a:after {
     border-radius: 50%;
