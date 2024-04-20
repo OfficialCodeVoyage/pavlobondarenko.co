@@ -656,7 +656,7 @@ ol {
     height: 19px;
     overflow-x: hidden;
     overflow-y: hidden;
-    z-index: 2;
+    z-index: 50;
 }
 
 .marquee div {
@@ -669,9 +669,16 @@ ol {
     animation: marquee 10s linear infinite;
 }
 
-.marquee div span b {
-    color: #ff0404;
+.banner .marquee span,
+.banner .marquee span b {
+    color: #FFFFFF !important;  /* Ensuring text color is white */
 }
+
+html body main section.about-area div.about-credentials-wrap div.banner div.marquee span,
+html body main section.about-area div.about-credentials-wrap div.banner div.marquee span b {
+    color: #FFF !important;  /* Force white color with highest specificity */
+}
+
 
 .about-area .about-credentials-wrap .banner .marquee b {
     color: #fff;

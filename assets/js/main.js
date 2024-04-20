@@ -17,6 +17,12 @@
 
 })(jQuery);
 
+window.addEventListener('load', () => {
+    const marqueeText = document.querySelectorAll('.marquee span, .marquee b');
+    marqueeText.forEach(el => {
+        el.style.color = 'white';  // Forcefully applying white color on window load
+    });
+});
 
 var div = document.createElement("div");
     div.id="preloader",
