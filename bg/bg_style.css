@@ -18,6 +18,23 @@ left: 50%;
 }
 
 
+/*!*about page*!*/
+
+/*#container-about {*/
+/*  background: #111;*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  z-index: 0;*/
+/*  left: 50%;*/
+/*  top: 10%;*/
+/*  overflow: hidden;*/
+/*}*/
+
+/*#container-about .element {*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*}*/
+
   /*
   #stats {
     position: absolute;
