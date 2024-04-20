@@ -655,6 +655,8 @@ ol {
     max-width: 100%;
     height: 19px;
     overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 2;
 }
 
 .marquee div {
@@ -664,7 +666,11 @@ ol {
     will-change: transform;
     font-size: 12px;
 
-    animation: marquee 8s linear infinite;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee div span b {
+    color: #ff0404;
 }
 
 .about-area .about-credentials-wrap .banner .marquee b {
