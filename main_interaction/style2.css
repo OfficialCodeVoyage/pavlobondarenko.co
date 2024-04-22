@@ -35,13 +35,25 @@
     justify-content: flex-end;
     align-items: center;
 
+
 }
+
+.marquee span, .marquee b {
+    color: white !important;
+}
+
+
+
+
 
 @media only screen and (max-width: 600px) {
     #magic {
         display: none;  /* Hide the box on mobile devices */
     }
 }
+
+
+
 
 /*.bottomPosition{*/
 

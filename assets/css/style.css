@@ -669,9 +669,9 @@ ol {
     animation: marquee 10s linear infinite;
 }
 
-.banner .marquee span,
-.banner .marquee span b {
-    color: #FFFFFF !important;  /* Ensuring text color is white */
+
+.marquee span, .marquee b {
+    color: white !important; /* Using !important to override other rules */
 }
 
 html body main section.about-area div.about-credentials-wrap div.banner div.marquee span,

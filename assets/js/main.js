@@ -31,3 +31,8 @@ var div = document.createElement("div");
     document.body.insertBefore(div,document.body.firstChild),window.onload=function() {
     document.getElementById("preloader").classList.add("off")
 };
+
+const marqueeText = document.querySelectorAll('.marquee span, .marquee b');
+marqueeText.forEach(el => {
+    el.style.color = 'white';  // Forcefully applying white color on window load
+});
