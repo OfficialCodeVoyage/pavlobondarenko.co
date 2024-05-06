@@ -648,6 +648,7 @@ ol {
 .about-area .about-credentials-wrap .banner {
     padding: 17px 25px;
     margin-bottom: 24px;
+
 }
 .marquee {
     position: relative;
@@ -669,15 +670,6 @@ ol {
     animation: marquee 10s linear infinite;
 }
 
-
-.marquee span, .marquee b {
-    color: white !important; /* Using !important to override other rules */
-}
-
-html body main section.about-area div.about-credentials-wrap div.banner div.marquee span,
-html body main section.about-area div.about-credentials-wrap div.banner div.marquee span b {
-    color: #FFF !important;  /* Force white color with highest specificity */
-}
 
 
 .about-area .about-credentials-wrap .banner .marquee b {
