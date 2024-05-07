@@ -35,6 +35,7 @@ body {
     color: #9f9f9f;
     background: #0F0F0F;
     line-height: 19.2px;
+    overflow-x: hidden;
 }
 
 img {
@@ -2137,5 +2138,14 @@ ol {
 @media only screen and (max-width: 600px) {
     .flex-1 {
         display: none;  /* Hide the div on mobile devices */
+    }
+}
+
+@media (max-width: 800px) {
+    .about-services-box,
+    .info-box,
+    .shadow-box,
+    .h-full {
+        /* Your CSS rules go here */
     }
 }

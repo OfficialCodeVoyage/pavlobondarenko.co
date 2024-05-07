@@ -17,6 +17,16 @@ left: 50%;
   top: 0;
 }
 
+#container {
+  display: none; /* Hide the div by default */
+}
+
+@media (min-width: 1201px) {
+  #container {
+    display: block; /* Show the div on screens wider than 1200px */
+  }
+}
+
 
 /*!*about page*!*/
 
